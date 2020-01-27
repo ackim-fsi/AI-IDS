@@ -73,20 +73,7 @@ def update_notable_lookup(lookup_name, bulk_string, column_order):
     query = ''
     query = query + '''
 | noop
-| stats c as text
-| eval text = "{bulk_string}"
-| eval text = split(text, "@@row_seperator@@")
-| mvexpand text
-| eval item_list = split(text, "@@column_seperator@@")
-{eval_query}
-| table {column_order}
-| eval label = ""
-| eval comment = ""
-| table label comment {column_order}
-| append
-[ inputlookup {lookup_name}
-| table label comment {column_order}
-]
+
 | outputlookup {lookup_name}'''
     query = query.format(**args)
 
