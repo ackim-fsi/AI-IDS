@@ -20,4 +20,3 @@ Dong Hoon Lee (donghlee@korea.ac.kr) received the B.S. degree from the Departmen
 
 # Acknowledgments
 This research was supported by Financial Security Institute (FSI), Republic of Korea.
-
