@@ -1,4 +1,4 @@
-# license 
+# License 
 Our AI-IDS software contains the following license and notice below: Licensed under the MIT License. 
 
 # AI-IDS
