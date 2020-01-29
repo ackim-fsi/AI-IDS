@@ -1,3 +1,6 @@
+# license 
+Our AI-IDS software contains the following license and notice below: Licensed under the MIT License. 
+
 # AI-IDS
 AI-IDS: Application of Deep Learning to Real-time Web Intrusion Detection
 
