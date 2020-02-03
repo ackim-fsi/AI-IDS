@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 # 일반적인 검색을 위한 쿼리
-# 방향성, 필터링 등 임의로 추가해서 새로 함수 작성 바랍니다.
-# 패킷보다 TAS 데이터가 과도하게 짧은 경우 (2/3 미만) 제외
-# 방향성 외*, src_port > dest_port 인 경우만 추출
 
 
 def search_query_total(earliest_minute=-1450, latest_minute=-1440, headers=[]):
