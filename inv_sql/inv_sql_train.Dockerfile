@@ -1,5 +1,4 @@
 FROM ai:python-keras
-MAINTAINER HyeSeong Jeong <hsjeong@fsec.or.kr>
 
 RUN mkdir /home/dockeruser/npy
 RUN mkdir /home/dockeruser/models
