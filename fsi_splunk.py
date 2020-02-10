@@ -6,14 +6,14 @@ import xml.etree.ElementTree as et
 
 
 #########################################################
-### 스플렁크에 원하는 검색문을 질의                     #
-### search_query (string) : 질의문                      #
-### period (int) : 작업 완료 여부 확인 주기 (초)        #
-### output_format (string) : 결과 형식 (csv, xml, json) #
-### auth (string tuple) : (ID, 비밀번호)                #
-### output_count (int) : 검색 결과 추출 개수            #
-### 검색 결과 형식은 csv, xml, json만 선택 가능         #
-### return (string) : 검색 결과                         #
+### Splunk Query Setup                                  #
+### search_query (string) : Query                     #
+### period (int) : duration for task completion (sec)        #
+### output_format (string) : outputfile format (csv, xml, json) #
+### auth (string tuple) : (ID, PW)                       #
+### output_count (int) : Number of ouput count          #
+### output file format : csv, xml, json                 #
+### return (string) : result of query                   #
 #########################################################
 def query(splunk_host, search_query, check_frequency, output_format, auth, sample_ratio=1, output_count=0):
 
