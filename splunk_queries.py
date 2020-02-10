@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 일반적인 검색을 위한 쿼리
+# general search for splunk queries
 
 
 def search_query_total(earliest_minute=-1450, latest_minute=-1440, headers=[]):
