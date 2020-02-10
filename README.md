@@ -4,7 +4,7 @@ Our AI-IDS software contains the following license and notice below: Licensed un
 # AI-IDS
 AI-IDS: Application of Deep Learning to Real-time Web Intrusion Detection
 
-We implemented and applied our Artificial Intelligence-based Intrusion Detection System (AI-IDS) to real-time web traffic for distinguishing sophisticated attacks such as unknown patterns, encoded payload or obfuscated attacks, from benign traffic. It also helps writing and improving Snort rules based on newly identified patterns. The AI-IDS is a flexible and scalable system that is implemented based on Docker images, separating user-defined functions by independent images. We designed a CNN-LSTM model structure based on UTF-8 encoding in bigdata-scale web traffic.
+We implemented and applied our Artificial Intelligence-based Intrusion Detection System (AI-IDS) to real-time web traffic for distinguishing sophisticated attacks such as unknown patterns, encoded payload or obfuscated attacks, from benign traffic. It also helps writing and improving Snort rules based on newly identified patterns. The AI-IDS is a flexible and scalable system that is implemented based on Docker images, separating user-defined functions by independent images. We designed a CNN-LSTM model structure based on normalized UTF-8 encoding in bigdata-scale web traffic.
 
 # payload_analysis
 This AI-IDS software that can be running in Splunk environment.
