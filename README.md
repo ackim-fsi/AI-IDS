@@ -23,4 +23,4 @@ Mohyun Park (mhpark@fsec.or.kr) is a manager in Financial Security Institute (FS
 Dong Hoon Lee (donghlee@korea.ac.kr) received the B.S. degree from the Department of Economics, Korea University, Seoul, in 1985, and the M.S. and Ph.D. degrees in computer science from The University of Oklahoma, Norman, in 1988 and 1992, respectively. Since 1993, he has been with the Faculty of Computer Science and Information Security, Korea University. He is currently a Professor and the Director of the Graduate School of Information Security, Korea University.
 
 # Acknowledgments
-This research was supported by Financial Security Institute (FSI), Republic of Korea.
+This research was supported by Financial Security Institute (FSI), South Korea.
