@@ -10,7 +10,7 @@ We implemented and applied our Artificial Intelligence-based Intrusion Detection
 This AI-IDS software that can be running in Splunk environment.
 
 More details:
- The paper "AI-IDS: Application of Deep Learning to Real-time Web Intrusion Detection" is under review (Feb, 2020)
+ The paper "AI-IDS: Application of Deep Learning to Real-time Web Intrusion Detection" has been published in IEEE Access, Vol. 8, 2020.
  Authors: Aechan Kim, Mohyun Park, DongHoon Lee 
 
 
